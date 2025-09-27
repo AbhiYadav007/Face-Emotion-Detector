@@ -13,12 +13,11 @@ It detects faces from your webcam and classifies emotions into 7 categories:
 
 ---
 
-## Requirements
-- Python 3.8+  
-- OpenCV (`opencv-python`)  
-- TensorFlow / Keras  
-- NumPy  
+## Dataset
+This model was trained on the **FER-2013 dataset**. You can download it from Kaggle:  
+[Kaggle FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013?select=train)
 
-Install dependencies via:
-```bash
-pip install -r requirements.txt
+**Note:** In `training.py`, you can adjust the number of training samples according to your GPU capability (My pc dont have gpu tats why it is very low) :
+```python
+nb_training_samples = 50000
+nb_validation_samples  = 1000
