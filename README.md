@@ -1,3 +1,11 @@
+├── .gitignore
+├── Emotion_little_vgg.h5
+├── Face_recognition.py
+├── README.md
+├── haarcascade_frontalface_default.xml
+└── training.py
+
+
 # Face Emotion Detector
 
 A real-time facial emotion recognition system using **OpenCV** and a **CNN model** (Keras).  
